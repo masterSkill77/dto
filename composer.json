@@ -1,0 +1,29 @@
+{
+    "name": "masterskill/dto",
+    "description": "This package is intended for the adoption of the DTO schema in Laravel, which is a system for controlling incoming and outgoing data, in collaboration with the Laravel formRequest, or the Eloquent model",
+    "version": "1.0.1",
+    "keyword": [
+        "dto",
+        "laravel",
+        "formRequest",
+        "controller"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Masterskill\\Dto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Clairmont RAJAONARISON",
+            "email": "clairmont.rajaonarison@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=8"
+    },
+    "require-dev" : {
+        "spatie/laravel-package-tools": "^1.16"
+    }
+}
